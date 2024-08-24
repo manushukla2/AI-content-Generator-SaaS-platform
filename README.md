@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# AI Content Generator SaaS App
 
-First, run the development server:
+Welcome to the AI Content Generator SaaS App! This project is designed to help you generate high-quality content using advanced AI technology. Built with Next.js, TypeScript, Drizzle ORM, and the Gemini API, this app provides a robust solution for content creation
+
+## Table of Contents
+
+1. [Features](#features)
+2. [Screenshots](#screenshots)
+3. [Installation](#installation)
+4. [Configuration](#configuration)
+5. [Running the App Locally](#running-the-app-locally)
+6. [Usage](#usage)
+7. [Contributing](#contributing)
+
+## Features
+
+- **AI Content Generation**: Utilize the Gemini API to generate high-quality content.
+- **Modern Tech Stack**: Built with Next.js and TypeScript for a scalable and maintainable codebase.
+- **Database Integration**: Uses Drizzle ORM for seamless database interactions.
+- **User-Friendly Interface**: Intuitive UI for easy content management.
+## Screenshots
+![signIn page](https://github.com/user-attachments/assets/c9296107-d559-4461-ac8d-6d8f60dc4717)
+![SignUp Page](https://github.com/user-attachments/assets/ba02b76e-cd93-48bd-af5e-e1db552691ed)
+![Dashboard](https://github.com/user-attachments/assets/60852b9c-7363-491e-93ea-07bc3fc36674)
+![Categories in Dashboard](https://github.com/user-attachments/assets/e2cc309b-4464-4b44-b61f-f74787fb4a18)
+![Content Generator Page](https://github.com/user-attachments/assets/44bf5818-29a2-430b-ad1e-a0f375fc4050)
+![History](https://github.com/user-attachments/assets/59abc9d6-0a01-4cc3-a2f4-a9b78b789426)
+
+
+
+## Installation
+
+To set up the AI Content Generator SaaS App on your local machine, follow these steps:
+
+1. **Clone the Repository**
+
+   Clone the repository to your local machine using the following command:
+   ```bash
+   git clone https://github.com/manushukla2/AI-content-Generator-SaaS-platform.git
+
+
+
+
+
+
+
+
+     
+
+
+## Configuration
+
+Create a .env file in the root directory of your project. This file will hold your environment variables. You can use the following template:
+
+`GEMINI_API_KEY=your-gemini-api-key`,
+`DATABASE_URL=your-database-url`,
+`CLERK_FRONTEND_API=your-clerk-frontend-api`,
+`CLERK_API_KEY=your-clerk-api-key`
+
+
+- *Replace your-gemini-api-key, your-database-url, your-clerk-frontend-api, and your-clerk-api-key with your actual credentials and configuration details.*
+
+
+
+- **Run the Development Server**
+
+Start the development server with the following command:
+- *npm run dev*
+
+## Running the App Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/manushukla2/AI-content-Generator-SaaS-platform.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd ai-content-generator-saas
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
 
-## Learn More
+Install dependencies
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+  npm install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Start the server
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+  npm run dev
+```
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- 1.*Navigate to the app in your browser at http://localhost:3000.*
+- 2.*Log in using Clerk's authentication system or register if needed.*
+- 3.*Use the AI content generation features to create and manage your content.*
+## Contributing
+
+1. **Fork the repository** and **clone your fork** to your local machine.
+2. **Create a new branch** for your changes and **make your updates**.
+3. **Push your branch** to your fork and **submit a pull request**.
+4. **Engage with reviewers** and make necessary updates until your pull request is merged.
