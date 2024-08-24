@@ -38,17 +38,6 @@ To set up the AI Content Generator SaaS App on your local machine, follow these 
    Clone the repository to your local machine using the following command:
    ```bash
    git clone https://github.com/manushukla2/AI-content-Generator-SaaS-platform.git
-
-
-
-
-
-
-
-
-     
-
-
 ## Configuration
 
 Create a .env file in the root directory of your project. This file will hold your environment variables. You can use the following template:
