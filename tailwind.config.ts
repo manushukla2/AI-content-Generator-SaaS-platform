@@ -1,13 +1,13 @@
 import type { Config } from "tailwindcss"
 
-const config = {
+const config: Config = {
   darkMode: ["class"],
   content: [
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-	],
+  ],
   prefix: "",
   theme: {
     container: {
@@ -72,9 +72,13 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      backgroundImage: {
+        'alf': "url('/images/alf.webp')", // Add your local image path here
+        // Add more images as needed
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
-} satisfies Config
+}
 
 export default config

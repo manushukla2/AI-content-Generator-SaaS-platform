@@ -1,7 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+body{
+  background-image: url('/alf.webp');
+  background-repeat: 'no-repeat';
+  background-position: 'center';
+  background-size: cover;
+}
 @layer base {
   :root {
     --background: 0 0% 100%;
