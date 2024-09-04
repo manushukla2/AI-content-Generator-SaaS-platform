@@ -21,9 +21,11 @@ Welcome to the AI Content Generator SaaS App! This project is designed to help y
 - **User-Friendly Interface**: Intuitive UI for easy content management.
 ## Screenshots
 ### SignIn Page
-![signIn page](https://github.com/user-attachments/assets/c9296107-d559-4461-ac8d-6d8f60dc4717)
+![Screenshot 2024-09-05 020336](https://github.com/user-attachments/assets/f57cab96-f5ba-4ad3-8530-11197a3b84d7)
+
 ### SignUp Page
-![SignUp Page](https://github.com/user-attachments/assets/ba02b76e-cd93-48bd-af5e-e1db552691ed)
+![Screenshot 2024-09-05 020405](https://github.com/user-attachments/assets/42d5b281-9f72-4e83-8446-0bfc43e18a01)
+
 
 ### Home Page
 ![Home Page](https://github.com/user-attachments/assets/0065c7a0-1631-44fa-890b-0064838d0a09)
