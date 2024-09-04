@@ -20,11 +20,24 @@ Welcome to the AI Content Generator SaaS App! This project is designed to help y
 - **Database Integration**: Uses Drizzle ORM for seamless database interactions.
 - **User-Friendly Interface**: Intuitive UI for easy content management.
 ## Screenshots
+### SignIn Page
 ![signIn page](https://github.com/user-attachments/assets/c9296107-d559-4461-ac8d-6d8f60dc4717)
+### SignUp Page
 ![SignUp Page](https://github.com/user-attachments/assets/ba02b76e-cd93-48bd-af5e-e1db552691ed)
+
+### Home Page
+![Home Page](https://github.com/user-attachments/assets/0065c7a0-1631-44fa-890b-0064838d0a09)
+
+### Dashboard
 ![Dashboard](https://github.com/user-attachments/assets/60852b9c-7363-491e-93ea-07bc3fc36674)
+
+### Categories
 ![Categories in Dashboard](https://github.com/user-attachments/assets/e2cc309b-4464-4b44-b61f-f74787fb4a18)
+
+### Content Generator Page
 ![Content Generator Page](https://github.com/user-attachments/assets/44bf5818-29a2-430b-ad1e-a0f375fc4050)
+
+#History Page
 ![History](https://github.com/user-attachments/assets/59abc9d6-0a01-4cc3-a2f4-a9b78b789426)
 
 
