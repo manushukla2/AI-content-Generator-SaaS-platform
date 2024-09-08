@@ -3,6 +3,13 @@
 
 Welcome to the AI Content Generator SaaS App! This project is designed to help you generate high-quality content using advanced AI technology. Built with Next.js, TypeScript, Drizzle ORM, and the Gemini API, this app provides a robust solution for content creation
 
+## Live Demo
+
+You can view the live demo of this project 
+https://ai-content-generator-saa-s-platform.vercel.app/
+
+Feel free to explore the app and see its features in action!
+
 ## Table of Contents
 
 1. [Features](#features)
